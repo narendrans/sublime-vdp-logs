@@ -1,0 +1,10 @@
+[
+	{
+		"caption": "Search Denodo (Alt+Shift+D)",
+		"command": "search_denodo"
+	},
+	{
+		"caption": "Search Google (Alt+Shift+G)",
+		"command": "search_google"
+	}
+]

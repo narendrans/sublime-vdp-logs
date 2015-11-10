@@ -1,0 +1,8 @@
+[
+	{
+    "keys": ["alt+shift+d"], "command": "search_denodo"
+	},
+	{
+    "keys": ["alt+shift+g"], "command": "search_google"
+	}
+]

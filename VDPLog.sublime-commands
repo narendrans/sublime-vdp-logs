@@ -1,6 +1,14 @@
 [
-  {
-    "caption": "VDP Logs: Transform Date Time",
-    "command": "vdp_log_date_time_transform"
-  }
+    {
+      "caption": "VDP Logs: Transform Date Time",
+      "command": "vdp_log_date_time_transform"
+    },
+    {
+    "caption": "Search Denodo (Alt+Shift+D)",
+    "command": "search_denodo"
+    },
+    {
+    "caption": "Search Google (Alt+Shift+G)",
+    "command": "search_google"
+    }
 ]

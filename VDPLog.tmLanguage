@@ -40,19 +40,19 @@
 			<key>name</key>
 			<string>storage</string>
 		</dict>
-			<dict>
+		<dict>
 			<key>match</key>
 			<string>java.[a-zA-Z.]*|sun.[a-zA-Z.]*|javax.[a-zA-Z.]*</string>
 			<key>name</key>
 			<string>variable.parameter</string>
 		</dict>
-			<dict>
+		<dict>
 			<key>match</key>
 			<string>Request:.*</string>
 			<key>name</key>
 			<string>storage.type</string>
 		</dict>
-			<dict>
+		<dict>
 			<key>match</key>
 			<string>\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d.\d\d\d</string>
 			<key>name</key>
