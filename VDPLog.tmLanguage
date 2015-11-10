@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>log</string>
+	</array>
+	<key>name</key>
+	<string>VDP Logs</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops like $1, $2...</string>
+			<key>match</key>
+			<string> ERROR </string>
+			<key>name</key>
+			<string>message.error</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops like $1, $2...</string>
+			<key>match</key>
+			<string>FATAL</string>
+			<key>name</key>
+			<string>invalid</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops like $1, $2...</string>
+			<key>match</key>
+			<string> INFO </string>
+			<key>name</key>
+			<string>entity.name.class</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops like $1, $2...</string>
+			<key>match</key>
+			<string> WARN </string>
+			<key>name</key>
+			<string>variable.parameter</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops like $1, $2...</string>
+			<key>match</key>
+			<string>com.denodo.[a-zA-Z.]*</string>
+			<key>name</key>
+			<string>storage</string>
+		</dict>
+			<dict>
+			<key>comment</key>
+			<string>Tab stops like $1, $2...</string>
+			<key>match</key>
+			<string>java.[a-zA-Z.]*|sun.[a-zA-Z.]*|javax.[a-zA-Z.]*</string>
+			<key>name</key>
+			<string>variable.parameter</string>
+		</dict>
+			<dict>
+			<key>comment</key>
+			<string>Tab stops like $1, $2...</string>
+			<key>match</key>
+			<string>\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d.\d\d\d</string>
+			<key>name</key>
+			<string>constant.language</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.log</string>
+	<key>uuid</key>
+	<string>ca03e751-04ef-4330-9a6b-9b99aae1c418</string>
+</dict>
+</plist>
