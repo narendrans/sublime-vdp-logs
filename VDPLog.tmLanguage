@@ -11,56 +11,48 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>comment</key>
-			<string>Tab stops like $1, $2...</string>
 			<key>match</key>
 			<string> ERROR </string>
 			<key>name</key>
 			<string>message.error</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>Tab stops like $1, $2...</string>
 			<key>match</key>
 			<string>FATAL</string>
 			<key>name</key>
 			<string>invalid</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>Tab stops like $1, $2...</string>
 			<key>match</key>
 			<string> INFO </string>
 			<key>name</key>
 			<string>entity.name.class</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>Tab stops like $1, $2...</string>
 			<key>match</key>
 			<string> WARN </string>
 			<key>name</key>
 			<string>variable.parameter</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>Tab stops like $1, $2...</string>
 			<key>match</key>
 			<string>com.denodo.[a-zA-Z.]*</string>
 			<key>name</key>
 			<string>storage</string>
 		</dict>
 			<dict>
-			<key>comment</key>
-			<string>Tab stops like $1, $2...</string>
 			<key>match</key>
 			<string>java.[a-zA-Z.]*|sun.[a-zA-Z.]*|javax.[a-zA-Z.]*</string>
 			<key>name</key>
 			<string>variable.parameter</string>
 		</dict>
 			<dict>
-			<key>comment</key>
-			<string>Tab stops like $1, $2...</string>
+			<key>match</key>
+			<string>Request:.*</string>
+			<key>name</key>
+			<string>storage.type</string>
+		</dict>
+			<dict>
 			<key>match</key>
 			<string>\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d.\d\d\d</string>
 			<key>name</key>
