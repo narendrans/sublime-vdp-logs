@@ -39,5 +39,5 @@ class serverCommand(sublime_plugin.TextCommand):
 
 # Edit the second parameter of re.sub as per your needs
 def transformTimeStamp(data):
-	data = re.sub(r'(2015)(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)(\d\d\d)', r'\1-\2-\3 \4:\5:\6.\7', data)  
+	data = re.sub(r'(\d\d\d\d)(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)(\d\d\d)', r'\1-\2-\3 \4:\5:\6.\7', data)  
 	return data
